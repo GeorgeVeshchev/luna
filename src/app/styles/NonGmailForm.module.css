@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+  
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.logo {
+    width: 40px;
+    height: auto;
+}
+  
+.chadText {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 10px;
+}
+  
+.paragraph {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px;
+}
+  
+.paragraphSecondary {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px;
+}
+  
+.platformLabel {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin: 10px 0;
+    padding: 10px;
+}
+  
+.platformSelect {
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+  
+.button {
+    width: 300px;
+    height: 43px;
+    padding: 11px;
+    border-radius: 8px;
+    background: #32ABF2;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+  
+.linkParagraph {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 60px;
+    padding: 10px;
+}
+  
+.link {
+    color: #32ABF2;
+    text-decoration: none;
+}
+  
+.link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 480px;
+    margin: auto;
+    border: 1px solid #d3d3d3;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.chadText {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.paragraphSecondary {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.platformLabel {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.platformSelect {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    font-family: 'Inter', sans-serif;
+}
+
+.linkParagraph {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.link {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #3a7bd5;
+}

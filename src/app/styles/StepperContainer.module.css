@@ -1,0 +1,128 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 90px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #19476C;
+  border: 2px solid #19476C;
+}
+
+.circle.active {
+  border: 2px solid #66B2E2;
+}
+
+.circle.completed {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.arrowIcon {
+  width: 7px;
+  height: 11px;
+}
+
+.line {
+  width: 2px;
+  background-color: #19476C;
+  position: absolute;
+  left: 21px;
+  top: 45px;
+  height: 50px;
+}
+
+.stepLabel {
+  margin-left: 10px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.labelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  margin-top: 300px;
+  background-color: #19476C;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.logoContainer {
+  margin-right: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+}
+
+.labelText {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+}
+
+.indicatorContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 185px;
+}
+
+.indicatorCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  margin: 0 5px;
+}
+
+.indicatorCircle.active {
+  background-color: #4a90e2;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #134267;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: #0e2a3a;
+}

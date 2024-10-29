@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 480px;
+    margin: auto;
+  }
+  
+  .logoContainer {
+    margin-bottom: 1px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  .message {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .secondaryMessage {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .doneButton {
+    width: 310px;
+    height: 43px;
+    padding: 11px 0;
+    gap: 10px;
+    border-radius: 8px 0 0 0;
+    background: #32ABF2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .doneButton:hover {
+    background-color: #3a7bd5;
+    opacity: 0.9;
+  }
+  
